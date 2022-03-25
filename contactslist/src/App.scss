@@ -1,3 +1,6 @@
+$button-color: #4B51EF;
+
+
 .content-wrapper {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -8,7 +11,7 @@
     width: fit-content;
     padding: 5px 15px;
     color: #ffffff;
-    background-color: #4B51EF;
+    background-color: $button-color;
     border-radius: 5px;
     border: none;
     cursor: pointer;
