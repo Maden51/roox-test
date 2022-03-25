@@ -1,0 +1,45 @@
+.content-wrapper {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+}
+
+.btn {
+    width: fit-content;
+    padding: 5px 15px;
+    color: #ffffff;
+    background-color: #4B51EF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: inherit;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: start;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn:active {
+    background-color: #3498db;
+    top: 2px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spinner-box {
+    margin-left: 200px;
+    padding-top: 100px;
+}
